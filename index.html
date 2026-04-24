@@ -105,12 +105,25 @@
               <table class="table table-striped">
                 <thead>
                   <tr>
-                    <th>Flow Name</th>
+                   <th>Flow Name</th>
                     <th>Int Ref</th>
                     <th>Int Description</th>
                     <th>Source</th>
                     <th>Target</th>
-                    <th>Business Sector</th>
+					<th>Protocol</th>
+					<th>Transfer Out</th>
+					<th>Hop1</th>
+					<th>Transfer In</th>
+					<th>Schedule</th>
+					<th>Data</th>
+					<th>Sensitivity PII</th>
+					<th>Status</th>
+					<th>Decommissioned</th>
+					<th>Criticality</th>
+					<th>IP/DNS Name</th>
+					<th>Business Sector</th>
+					<th>Primary Owner</th>
+					<th>Support Owner</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -120,7 +133,20 @@
                     <td>{{x.IntDesc}}</td>
                     <td>{{x.SourceSystem}}</td>
                     <td>{{x.DestinationSystem}}</td>
-                    <td>{{x.BusinessSector}}</td>
+					<td>{{x.Protocol}}</td>
+					<td>{{x.TransferOut}}</td>
+					<td>{{x.Hop1}}</td>
+					<td>{{x.TransferIn}}</td>
+					<td>{{x.Schedule}}</td>
+					<td>{{x.Data}}</td>
+					<td>{{x.PII}}</td>
+					<td>{{x.Status}}</td>
+					<td>{{x.Decommission}}</td>
+					<td>{{x.Criticality}}</td>
+					<td>{{x.IP_DNS_Name}}</td>
+					<td>{{x.BusinessSector}}</td>
+					<td>{{x.PrimaryOwner}}</td>
+					<td>{{x.SupportOwner}}</td>
                   </tr>
                 </tbody>
               </table>
