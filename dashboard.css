@@ -85,8 +85,14 @@ body {
 }
 
 /* ==========================================================
-   DATA TABLE WRAPPING & SCROLL CONTROL (Excel-style)
+   DATA TABLE – FIXED LAYOUT & CONTROLLED WRAPPING (Excel-style)
    ========================================================== */
+
+/* 0) Force predictable column sizing so text can't "bleed" into next cells */
+.table.table-striped {
+  table-layout: fixed;
+  width: 100%;
+}
 
 /* 1) Default: do NOT wrap table cells */
 .table.table-striped th,
@@ -97,7 +103,7 @@ body {
 
 /* 2) Allow wrapping ONLY for long descriptive columns */
 .wrap-col {
-  white-space: normal;
+  white-space: normal !important;
   word-break: break-word;
   overflow-wrap: anywhere;
   max-width: 280px;   /* tune per column if needed */
