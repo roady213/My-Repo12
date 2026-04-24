@@ -105,17 +105,17 @@
               <table class="table table-striped">
                 <thead>
                   <tr>
-                   <th>Flow Name</th>
-                    <th>Int Ref</th>
-                    <th>Int Description</th>
-                    <th>Source</th>
-                    <th>Target</th>
+                   <th class="col-flow">Flow Name</th>
+                    <th class="col-intref">Int Ref</th>
+                    <th class="wrap-col">Int Description</th>
+                    <th class="col-source">Source</th>
+                    <th class="col-target">Target</th>
 					<th>Protocol</th>
 					<th>Transfer Out</th>
 					<th>Hop1</th>
 					<th>Transfer In</th>
 					<th>Schedule</th>
-					<th>Data</th>
+					<th class="wrap-col">Data</th>
 					<th>Sensitivity PII</th>
 					<th>Status</th>
 					<th>Decommissioned</th>
@@ -123,22 +123,22 @@
 					<th>IP/DNS Name</th>
 					<th>Business Sector</th>
 					<th>Primary Owner</th>
-					<th>Support Owner</th>
+					<th>Support Owner</th>		
                   </tr>
                 </thead>
                 <tbody>
                   <tr ng-repeat="x in filteredConceptualView">
-                    <td>{{x.FlowName}}</td>
-                    <td>{{x.IntRef}}</td>
-                    <td>{{x.IntDesc}}</td>
-                    <td>{{x.SourceSystem}}</td>
-                    <td>{{x.DestinationSystem}}</td>
+                    <td class="col-flow">{{x.FlowName}}</td>
+                    <td class="col-intref">{{x.IntRef}}</td>
+                    <td class="wrap-col">{{x.IntDesc}}</td>
+                    <td class="col-source">{{x.SourceSystem}}</td>
+                    <td class="col-target">{{x.DestinationSystem}}</td>
 					<td>{{x.Protocol}}</td>
 					<td>{{x.TransferOut}}</td>
 					<td>{{x.Hop1}}</td>
 					<td>{{x.TransferIn}}</td>
 					<td>{{x.Schedule}}</td>
-					<td>{{x.Data}}</td>
+					<td class="wrap-col">{{x.Data}}</td>
 					<td>{{x.PII}}</td>
 					<td>{{x.Status}}</td>
 					<td>{{x.Decommission}}</td>
