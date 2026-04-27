@@ -103,52 +103,52 @@
           <div class="panel-body">
             <div class="table-responsive">
               <table class="table table-striped">
-                <thead>
-                  <tr>
-                   <th class="col-flow">Flow Name</th>
-                    <th class="col-intref">Int Ref</th>
-                    <th class="wrap-col">Int Description</th>
-                    <th class="col-source">Source</th>
-                    <th class="col-target">Target</th>
-					<th>Protocol</th>
-					<th>Transfer Out</th>
-					<th>Hop1</th>
-					<th>Transfer In</th>
-					<th>Schedule</th>
-					<th class="wrap-col">Data</th>
-					<th>Sensitivity PII</th>
-					<th>Status</th>
-					<th>Decommissioned</th>
-					<th>Criticality</th>
-					<th>IP/DNS Name</th>
-					<th>Business Sector</th>
-					<th>Primary Owner</th>
-					<th>Support Owner</th>		
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr ng-repeat="x in filteredConceptualView">
-                    <td class="col-flow">{{x.FlowName}}</td>
-                    <td class="col-intref">{{x.IntRef}}</td>
-                    <td class="wrap-col">{{x.IntDesc}}</td>
-                    <td class="col-source">{{x.SourceSystem}}</td>
-                    <td class="col-target">{{x.DestinationSystem}}</td>
-					<td>{{x.Protocol}}</td>
-					<td>{{x.TransferOut}}</td>
-					<td>{{x.Hop1}}</td>
-					<td>{{x.TransferIn}}</td>
-					<td>{{x.Schedule}}</td>
-					<td class="wrap-col">{{x.Data}}</td>
-					<td>{{x.PII}}</td>
-					<td>{{x.Status}}</td>
-					<td>{{x.Decommission}}</td>
-					<td>{{x.Criticality}}</td>
-					<td>{{x.IP_DNS_Name}}</td>
-					<td>{{x.BusinessSector}}</td>
-					<td>{{x.PrimaryOwner}}</td>
-					<td>{{x.SupportOwner}}</td>
-                  </tr>
-                </tbody>
+				<thead>
+				  <tr>
+				    <th class="col-flow">Flow Name</th>
+				    <th class="col-intref">Int Ref</th>
+				    <th class="col-intdesc wrap-col">Int Description</th>
+				    <th class="col-source">Source</th>
+				    <th class="col-target">Target</th>
+				    <th class="col-protocol">Protocol</th>
+				    <th class="col-transferout">Transfer Out</th>
+				    <th class="col-hop1">Hop1</th>
+				    <th class="col-transferin">Transfer In</th>
+				    <th class="col-schedule">Schedule</th>
+				    <th class="col-data wrap-col">Data</th>
+				    <th class="col-pii">Sensitivity PII</th>
+				    <th class="col-status">Status</th>
+				    <th class="col-decom">Decommissioned</th>
+				    <th class="col-criticality">Criticality</th>
+				    <th class="col-ipdns">IP/DNS Name</th>
+				    <th class="col-businesssector">Business Sector</th>
+				    <th class="col-primaryowner">Primary Owner</th>
+				    <th class="col-supportowner">Support Owner</th>
+				  </tr>
+				</thead>
+				<tbody>
+				  <tr ng-repeat="x in filteredConceptualView">
+				    <td class="col-flow">{{x.FlowName}}</td>
+				    <td class="col-intref">{{x.IntRef}}</td>
+				    <td class="col-intdesc wrap-col">{{x.IntDesc}}</td>
+				    <td class="col-source">{{x.SourceSystem}}</td>
+				    <td class="col-target">{{x.DestinationSystem}}</td>
+				    <td class="col-protocol">{{x.Protocol}}</td>
+				    <td class="col-transferout">{{x.TransferOut}}</td>
+				    <td class="col-hop1">{{x.Hop1}}</td>
+				    <td class="col-transferin">{{x.TransferIn}}</td>
+				    <td class="col-schedule">{{x.Schedule}}</td>
+				    <td class="col-data wrap-col">{{x.Data}}</td>
+				    <td class="col-pii">{{x.PII}}</td>
+				    <td class="col-status">{{x.Status}}</td>
+				    <td class="col-decom">{{x.Decommission}}</td>
+				    <td class="col-criticality">{{x.Criticality}}</td>
+				    <td class="col-ipdns">{{x.IP_DNS_Name}}</td>
+				    <td class="col-businesssector">{{x.BusinessSector}}</td>
+				    <td class="col-primaryowner">{{x.PrimaryOwner}}</td>
+				    <td class="col-supportowner">{{x.SupportOwner}}</td>
+				  </tr>
+				</tbody>
               </table>
             </div>
           </div>
