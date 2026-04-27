@@ -112,7 +112,7 @@ body {
 }
 
 /* 3) Optional: stabilise key column widths so they don't collapse */
-th.col-flow, td.col-flow { min-width: 180px; }
+th.col-flow, td.col-flow { min-width: 400px; }
 th.col-intref, td.col-intref { min-width: 110px; }
 th.col-intdesc, td.col-intdesc { min-width: 220px; }      /* Int Description */
 th.col-source, td.col-source { min-width: 120px; }
