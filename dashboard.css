@@ -92,6 +92,7 @@ body {
 .table.table-striped {
   table-layout: fixed;
   width: 100%;
+  min-width: 1800px; /* or higher, depending on your column count */
 }
 
 /* 1) Default: do NOT wrap table cells */
@@ -106,7 +107,7 @@ body {
   white-space: normal !important;
   word-break: break-word;
   overflow-wrap: anywhere;
-  max-width: 280px;   /* tune per column if needed */
+  max-width: 400px;   /* tune per column if needed */
   line-height: 1.3;
 }
 
@@ -116,7 +117,18 @@ th.col-intref, td.col-intref { min-width: 110px; }
 th.col-source, td.col-source { min-width: 120px; }
 th.col-target, td.col-target { min-width: 120px; }
 th.col-protocol, td.col-protocol { min-width: 110px; }
-th.col-intref, td.col-intref { min-width: 110px; }
-th.col-source, td.col-source { min-width: 120px; }
-th.col-target, td.col-target { min-width: 120px; }
-th.col-protocol, td.col-protocol { min-width: 110px; }
+th.col-intdesc, td.col-intdesc { min-width: 220px; }      /* Int Description */
+th.col-transferout, td.col-transferout { min-width: 110px; }
+th.col-hop1, td.col-hop1 { min-width: 110px; }
+th.col-transferin, td.col-transferin { min-width: 110px; }
+th.col-schedule, td.col-schedule { min-width: 120px; }
+th.col-data, td.col-data { min-width: 180px; }
+th.col-pii, td.col-pii { min-width: 90px; }
+th.col-status, td.col-status { min-width: 90px; }
+th.col-decom, td.col-decom { min-width: 90px; }
+th.col-criticality, td.col-criticality { min-width: 90px; }
+th.col-ipdns, td.col-ipdns { min-width: 120px; }
+th.col-businesssector, td.col-businesssector { min-width: 180px; }
+th.col-primaryowner, td.col-primaryowner { min-width: 120px; }
+th.col-supportowner, td.col-supportowner { min-width: 120px; }
+
