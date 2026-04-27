@@ -105,7 +105,7 @@
               <table class="table table-striped">
 				<thead>
 				  <tr>
-				    <th class="col-flow">Flow Name</th>
+				    <th class="col-flow wrap-col">Flow Name</th>
 				    <th class="col-intref">Int Ref</th>
 				    <th class="col-intdesc wrap-col">Int Description</th>
 				    <th class="col-source">Source</th>
@@ -120,7 +120,7 @@
 				    <th class="col-status">Status</th>
 				    <th class="col-decom">Decommissioned</th>
 				    <th class="col-criticality">Criticality</th>
-				    <th class="col-ipdns">IP/DNS Name</th>
+				    <th class="col-ipdns wrap-col">IP/DNS Name</th>
 				    <th class="col-businesssector">Business Sector</th>
 				    <th class="col-primaryowner">Primary Owner</th>
 				    <th class="col-supportowner">Support Owner</th>
@@ -128,7 +128,7 @@
 				</thead>
 				<tbody>
 				  <tr ng-repeat="x in filteredConceptualView">
-				    <td class="col-flow">{{x.FlowName}}</td>
+				    <td class="col-flow wrap-col">{{x.FlowName}}</td>
 				    <td class="col-intref">{{x.IntRef}}</td>
 				    <td class="col-intdesc wrap-col">{{x.IntDesc}}</td>
 				    <td class="col-source">{{x.SourceSystem}}</td>
@@ -143,7 +143,7 @@
 				    <td class="col-status">{{x.Status}}</td>
 				    <td class="col-decom">{{x.Decommission}}</td>
 				    <td class="col-criticality">{{x.Criticality}}</td>
-				    <td class="col-ipdns">{{x.IP_DNS_Name}}</td>
+				    <td class="col-ipdns wrap-col">{{x.IP_DNS_Name}}</td>
 				    <td class="col-businesssector">{{x.BusinessSector}}</td>
 				    <td class="col-primaryowner">{{x.PrimaryOwner}}</td>
 				    <td class="col-supportowner">{{x.SupportOwner}}</td>
