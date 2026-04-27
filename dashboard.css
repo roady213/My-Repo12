@@ -106,7 +106,7 @@ body {
   white-space: normal !important;
   word-break: break-word;
   overflow-wrap: anywhere;
-  max-width: 280px;   /* tune per column if needed */
+  max-width: 800px;   /* tune per column if needed */
   line-height: 1.3;
 }
 
