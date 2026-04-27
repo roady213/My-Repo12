@@ -106,17 +106,17 @@ body {
   white-space: normal !important;
   word-break: break-word;
   overflow-wrap: anywhere;
-  max-width: 800px;   /* tune per column if needed */
+  max-width: 280px;   /* tune per column if needed */
   line-height: 1.3;
 }
 
 /* 3) Optional: stabilise key column widths so they don't collapse */
-th.col-flow, td.col-flow { min-width: 380px; }
-th.col-intref, td.col-intref { min-width: 310px; }
-th.col-source, td.col-source { min-width: 320px; }
-th.col-target, td.col-target { min-width: 320px; }
-th.col-protocol, td.col-protocol { min-width: 310px; }
-th.col-intref, td.col-intref { min-width: 310px; }
-th.col-source, td.col-source { min-width: 320px; }
-th.col-target, td.col-target { min-width: 320px; }
-th.col-protocol, td.col-protocol { min-width: 310px; }
+th.col-flow, td.col-flow { min-width: 180px; }
+th.col-intref, td.col-intref { min-width: 110px; }
+th.col-source, td.col-source { min-width: 120px; }
+th.col-target, td.col-target { min-width: 120px; }
+th.col-protocol, td.col-protocol { min-width: 110px; }
+th.col-intref, td.col-intref { min-width: 110px; }
+th.col-source, td.col-source { min-width: 120px; }
+th.col-target, td.col-target { min-width: 120px; }
+th.col-protocol, td.col-protocol { min-width: 110px; }
