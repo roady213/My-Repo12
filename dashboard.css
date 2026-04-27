@@ -92,7 +92,7 @@ body {
 .table.table-striped {
   table-layout: fixed;
   width: 100%;
-  min-width: 3000px; /* or higher, depending on your column count */
+  min-width: 3400px; /* or higher, depending on your column count */
 }
 
 /* 1) Default: do NOT wrap table cells */
@@ -112,7 +112,7 @@ body {
 }
 
 /* 3) Optional: stabilise key column widths so they don't collapse */
-th.col-flow, td.col-flow { min-width: 400px; }
+th.col-flow, td.col-flow { min-width: 500px; }
 th.col-intref, td.col-intref { min-width: 110px; }
 th.col-intdesc, td.col-intdesc { min-width: 220px; }      /* Int Description */
 th.col-source, td.col-source { min-width: 120px; }
@@ -128,6 +128,6 @@ th.col-status, td.col-status { min-width: 90px; }
 th.col-decom, td.col-decom { min-width: 90px; }
 th.col-criticality, td.col-criticality { min-width: 90px; }
 th.col-ipdns, td.col-ipdns { min-width: 120px; }
-th.col-businesssector, td.col-businesssector { min-width: 400px; }
+th.col-businesssector, td.col-businesssector { min-width: 600px; }
 th.col-primaryowner, td.col-primaryowner { min-width: 120px; }
 th.col-supportowner, td.col-supportowner { min-width: 120px; }
