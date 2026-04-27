@@ -131,3 +131,12 @@ th.col-ipdns, td.col-ipdns { min-width: 120px; }
 th.col-businesssector, td.col-businesssector { min-width: 600px; }
 th.col-primaryowner, td.col-primaryowner { min-width: 120px; }
 th.col-supportowner, td.col-supportowner { min-width: 120px; }
+
+/* Sticky table header: keeps <thead> visible while scrolling vertically */
+.table.table-striped thead th {
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  background: #fff; /* or your preferred header color */
+  box-shadow: 0 2px 2px -2px #ccc; /* subtle shadow for separation */
+}
